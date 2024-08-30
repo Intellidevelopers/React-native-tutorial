@@ -59,7 +59,7 @@ const InfoScreen = () => {
 
   const handleContinue = () => {
     router.push({
-      pathname: '/RefundSummary',
+      pathname: '/SummaryScreen',
       params: {
         amountToRefund: selectedValues.amountToRefund,
         taxOnAmountToRefund: selectedValues.taxOnAmountToRefund,
